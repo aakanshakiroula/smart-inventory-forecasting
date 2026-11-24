@@ -12,6 +12,29 @@
 
 An end-to-end inventory analytics and demand forecasting project built using Python, Machine Learning, MySQL, and Streamlit.
 
+## Live Demo
+
+Explore the interactive Smart Inventory Forecasting
+System deployed on Streamlit Community Cloud.
+
+[Launch Live Dashboard](https://smart-inventory-forecasting-aakansha.streamlit.app)
+
+The public demo includes:
+
+- Interactive sales and revenue analytics
+- Machine learning-based demand forecasting
+- Inventory stock simulation
+- Automated reorder recommendations
+- Model comparison and performance visualization
+- Downloadable inventory reports
+
+**Note:** The online demo uses synthetic historical
+sales data and simulated inventory. The original
+local application uses MySQL for persistent
+inventory management.
+
+---
+
 ## Project Overview
 
 The Smart Inventory Forecasting System analyzes historical sales data, predicts product demand, monitors inventory levels, and generates data-driven reorder recommendations.
