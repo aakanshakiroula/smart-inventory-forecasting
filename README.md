@@ -1,14 +1,14 @@
 # Smart Inventory Forecasting System
 
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/ML-Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-Computing-013243?logo=numpy&logoColor=white)
-![Tests](https://img.shields.io/badge/Tests-13%20Passed-brightgreen)
-![Status](https://img.shields.io/badge/Status-Working%20Prototype-success)
+![Python](badges/python.svg)
+![MySQL](badges/mysql.svg)
+![Scikit-learn](badges/sklearn.svg)
+![Streamlit](badges/streamlit.svg)
+![Pandas](badges/pandas.svg)
+![NumPy](badges/numpy.svg)
+![Tests](badges/tests.svg)
+![Status](badges/status.svg)
 
 An end-to-end inventory analytics and demand forecasting project built using Python, Machine Learning, MySQL, and Streamlit.
 
