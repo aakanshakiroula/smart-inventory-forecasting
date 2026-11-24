@@ -229,3 +229,80 @@ python -m unittest discover -s tests -p "test_*.py" -v
 ## Project Purpose
 
 This project was developed to demonstrate practical skills in Python programming, SQL, machine learning, data analysis, inventory optimization, and dashboard development.
+
+
+
+---
+
+## 📸 Dashboard Screenshots
+
+### 1. Dashboard Overview
+
+Interactive dashboard displaying business KPIs, predicted demand,
+current stock levels, and inventory reorder recommendations.
+
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### 2. Monthly Sales Analysis
+
+Interactive product-wise monthly sales trend analysis.
+
+![Monthly Sales](screenshots/monthly_sales.png)
+
+### 3. Monthly Revenue Analysis
+
+Monthly revenue visualization for business decision-making.
+
+![Monthly Revenue](screenshots/monthly_revenue.png)
+
+### 4. Automated Stock Reorder Alerts
+
+Low-stock detection and automated reorder quantity recommendations.
+
+![Stock Alerts](screenshots/stock_alerts.png)
+
+### 5. Product Revenue Comparison
+
+Product-wise revenue comparison to identify high-performing products.
+
+![Product Revenue](screenshots/product_revenue.png)
+
+### 6. Machine Learning Demand Forecasting
+
+Product-specific next-day demand predictions based on historical sales data.
+
+![Demand Forecasting](screenshots/demand_forecasting.png)
+
+### 7. Time-Series Cross-Validation
+
+Model evaluation using five chronological validation folds.
+
+![Cross Validation](screenshots/cross_validation.png)
+
+### 8. Model Performance Evaluation
+
+The selected Linear Regression model achieved the following
+results on the holdout test dataset:
+
+| Evaluation Metric | Result |
+|---|---:|
+| Mean Absolute Error (MAE) | 3.08 |
+| Root Mean Squared Error (RMSE) | 3.84 |
+| MAE Improvement over Baseline | 26.20% |
+| RMSE Improvement over Baseline | 26.61% |
+
+![Model Performance](screenshots/model_performance.png)
+
+### 9. Actual vs Predicted Demand
+
+Visual comparison of actual product demand and predicted demand.
+
+![Actual vs Predicted](screenshots/actual_vs_predicted.png)
+
+### 10. Feature Analysis and Product-wise Performance
+
+Model feature analysis and individual product prediction errors.
+
+![Feature Analysis](screenshots/feature_importance.png)
+
+---
