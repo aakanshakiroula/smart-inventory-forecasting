@@ -1,8 +1,9 @@
-pandas
-numpy
-scikit-learn
-streamlit
-altair
-joblib
-mysql-connector-python
-python-dotenv
+pandas==3.1.0
+numpy==2.5.4
+scikit-learn==1.9.1
+streamlit==1.66.1
+altair==6.3.0
+joblib==1.6.0
+mysql-connector-python==26.10.0
+python-dotenv==1.2.4
+matplotlib==3.11.2
