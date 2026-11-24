@@ -1,0 +1,6 @@
+Model,Average_MAE,Average_RMSE
+Linear Regression,3.05,3.9
+Gradient Boosting,3.17,4.07
+Random Forest,3.25,4.11
+Extra Trees,3.29,4.17
+Decision Tree,4.41,5.65

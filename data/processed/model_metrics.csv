@@ -1,0 +1,8 @@
+Metric,Value
+Selected Model,Linear Regression
+Model MAE,3.0791006452730962
+Model RMSE,3.8449816713231346
+Baseline MAE,4.1722222222222225
+Baseline RMSE,5.239274758971894
+MAE Improvement (%),26.19998453406694
+RMSE Improvement (%),26.612329984434
