@@ -95,7 +95,7 @@ The system displays inventory statuses such as `REORDER` and `STOCK AVAILABLE`.
 ## Project Structure
 
 ```text
-smart_inventory_forecasting/
+smart-inventory-forecasting/
 ├── app/
 │   └── app.py
 ├── data/
@@ -104,6 +104,7 @@ smart_inventory_forecasting/
 ├── database/
 ├── models/
 │   └── inventory_demand_model.pkl
+├── screenshots/
 ├── src/
 │   ├── inventory_logic.py
 │   ├── inventory_recommendations.py
@@ -112,9 +113,10 @@ smart_inventory_forecasting/
 ├── tests/
 │   ├── test_inventory.py
 │   └── test_inventory_logic.py
+├── .env.example
+├── .gitignore
 ├── main.py
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
@@ -123,11 +125,10 @@ smart_inventory_forecasting/
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd smart_inventory_forecasting
+git clone https://github.com/aakanshakiroula/smart-inventory-forecasting.git
+cd smart-inventory-forecasting
 ```
 
-Replace `<repository-url>` with the actual GitHub repository URL.
 
 ### 2. Create a virtual environment
 
@@ -156,7 +157,7 @@ Make sure MySQL Server is installed and running.
 From the project root, run:
 
 ```powershell
-mysql -u root -p < database/schema.sql
+mysql -u root -p -e "source database/schema.sql"
 ```
 
 Enter your MySQL password when prompted.
@@ -171,7 +172,19 @@ The SQL script creates the `smart_inventory_db` database, the `sales` and `inven
 
 **Configure environment variables**
 
-Create a `.env` file in the project root:
+**Configure environment variables**
+
+The repository includes a `.env.example` file as a configuration template.
+
+Copy the example file to create your local `.env` file.
+
+On Windows PowerShell:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+Open the `.env` file and update the database configuration:
 
 ```dotenv
 DB_HOST=localhost
@@ -180,7 +193,11 @@ DB_PASSWORD=your_mysql_password
 DB_NAME=smart_inventory_db
 ```
 
-Replace the example credentials with your own. Never commit the `.env` file.
+Replace the placeholder credentials with your actual MySQL credentials.
+
+The `.env` file is excluded from version control using `.gitignore` to protect sensitive database credentials.
+
+Never commit or upload your actual `.env` file to GitHub.
 
 **Import historical sales data**
 
